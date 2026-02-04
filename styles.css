@@ -1,0 +1,42 @@
+/* Fondo general */
+.app-bg {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Tarjeta principal */
+.app-card {
+    border-radius: 20px;
+    backdrop-filter: blur(10px);
+    background: rgba(255, 255, 255, 0.95);
+}
+
+/* Vista del color */
+.color-preview {
+    height: 160px;
+    border-radius: 15px;
+    border: 1px solid #ddd;
+    transition: background-color 0.3s ease;
+}
+
+/* Inputs numéricos */
+.value-input {
+    width: 90px;
+    text-align: center;
+    font-weight: 500;
+}
+
+/* Color picker */
+.color-picker {
+    width: 80px;
+    height: 45px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+/* Texto HEX */
+.hex-text {
+    font-size: 1.1rem;
+    letter-spacing: 1px;
+    font-family: monospace;
+}
